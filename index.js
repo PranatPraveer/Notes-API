@@ -1,7 +1,7 @@
 const express= require("express");
 const app= express();
-const noteRouter = require("./routes/noteRoutes");
-const userRouter = require("./routes/userRoutes");
+const noteRouter = require("./src/routes/noteRoutes");
+const userRouter = require("./src/routes/userRoutes");
 const dotenv =require("dotenv");
 const cors =require("cors");
 
